@@ -12,10 +12,14 @@ body {
   background-color: hsl(204, 43%, 93%);
   font-family: "Karla", sans-serif;
   font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .container {
   max-width: 30rem;
-  margin: 5rem auto;
+  margin: 0 auto;
 }
 @media (min-width: 40em) {
   .sides {
