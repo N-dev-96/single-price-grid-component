@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 30rem;
+  margin: 5rem auto;
+}
+@media (min-width: 40em) {
+  .sides {
+    display: flex;
+  }
+  .sides > * {
+    flex-basis: 100%;
+  }
+  .container {
+    min-width: 60rem;
+    max-width: 70rem;
+    padding: 5rem;
+  }
+}
+main {
+  -webkit-box-shadow: 0px 10px 32px -6px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 10px 32px -6px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 10px 32px -6px rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* JOIN */
+.join {
+  background-color: hsl(204, 43%, 100%);
+  padding: 3rem 2.5rem;
+}
+
+.join h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+}
+.join p {
+  color: hsl(218, 22%, 67%);
+  line-height: 170%;
+}
+h2 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.join h2 {
+  color: hsl(71, 73%, 54%);
+  line-height: 130%;
+}
+p,
+li {
+  font-size: 1.6rem;
+}
+
+/* SIDES */
+
+/* PRICE */
+.price {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 100%);
+  padding: 2.5rem;
+}
+.price p {
+  padding-bottom: 1.3rem;
+}
+.month h3,
+.month p {
+  display: inline-block;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.price button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  width: 100%;
+  padding: 1.8rem 0;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  -webkit-box-shadow: 5px 12px 33px -6px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 5px 12px 33px -6px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 12px 33px -6px rgba(0, 0, 0, 0.37);
+}
+/* WHY US */
+.footer {
+  background-color: hsl(179, 47%, 52%);
+  color: hsl(204, 43%, 100%);
+  padding: 2.5rem;
+}
+.footer li {
+  list-style-type: none;
+  color: hsl(179, 47%, 92%);
+  line-height: 150%;
+}
+.month p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.month span {
+  font-size: 1.6rem;
+  color: hsl(179, 47%, 72%);
+  font-weight: 400;
+}
